@@ -1,0 +1,76 @@
+<!DOCTYPE	html>
+<!-- Dan Belair bela0019 -->
+<!-- CSCI4131  assignment 3 -->
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css">
+      <title>My Contacts</title>
+      <script src="myCode.js"></script>
+   </head>
+
+   <body>
+     <nav>
+       <ul>
+         <li><a href="MyContacts.html">My Contacts</a></li>
+         <li><a href="MyWidgets.html">My Widgets</a></li>
+         <li><a href="MyForm.html">My Form </a></li>
+       </ul>
+       <h1>Poop map</h1>
+     </nav>
+
+
+
+   <div id = "map-area">
+     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdmctXQ-lW_sN2i03a8EbxcgSdAgRixVE&callback=initMap&libraries=places"async defer>
+   </script>
+     <div id = "map">
+
+     </div>
+
+     <div id = "nav-options">
+       <div class="navdir">
+         <div><img src="search.png" alt="search.png"></div>
+         <div>
+
+             Find
+             <select name="places" id="place" onchange="navOptions()">
+              <option value="restaurant">Restaurant</option>
+              <option value="hospital">Hospital</option>
+              <option value="parking">Parking</option>
+              <option value="supermarket">Supermarket</option>
+              <option value="other" id="other">Other</option>
+            </select>
+            <br>
+            <input id="otherPlace" type="text" placeholder="Enter" disabled>
+            <br>
+            <input id="radius" type="number" min="0" value="1000">
+            meters
+            <button class="btn" id="searchButton" onclick= "searchLoc()">Search Near Me </button>
+
+         </div>
+       </div>
+
+        <div class ="navdir">
+          <div><img src="direction.png" alt="direction.png"></div>
+          <div>
+            From
+              <input id= "destination" type= "text" value="Destination">
+              Direction to
+              <input id="Source" type="text" value="Source">
+              by
+              <br>
+              <input type="radio" name="transportation" value="WALKING" checked> WALK<br>
+              <input type="radio" name="transportation" value="DRIVING"> DRIVE<br>
+              <input type="radio" name="transportation" value="TRANSIT"> TRANSIT<br>
+              <button class="btn" id="button" onclick="getDirections()">Go</button>
+
+          </div>
+
+        </div>
+     </div>
+   </div>
+
+   </body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE	html>
+<!-- Dan Belair  -->
+<html lang="en">
+   <head>
+      <link rel="stylesheet" href="style.css">
+      <meta charset="utf-8">
+      <title>My Form</title>
+      <script src="myCode.js"></script>
+   </head>
+
+   <body>
+
+
+     <h1>My Form</h1>
+     <div class="navdir">
+       <div>
+
+        <form method="get" action = "">
+            <fieldset>
+
+          <!-- input type = "text" inserts a text field -->
+          <p>
+            <label>Name:
+            <input name = "name" id= "name" type = "text" size = "25"
+            </label>
+          </p>
+
+          <p>
+            <label>Email:
+            <input name = "email" id= "email" type = "text" size = "25"
+            placeholder="email@domain.com" title="needs @  .com"
+              maxlength = "30"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            </label>
+          </p>
+
+          <p>
+            <label>Address:
+            <input name = "address" id= "address" type = "text"
+              placeholder="#number# street city state zip"
+
+            </label>
+          </p>
+
+          <p>
+            <label>Favorite Place:
+            <input name = "place" id= "place" type = "text" size = "25"
+              placeholder="kansas"
+              maxlength = "30" required
+              pattern="([A-z0-9À-ž\s]){2,}">
+            </label>
+          </p>
+
+          <p>
+            <label>URL of Favorite place:
+            <input name = "url" id= "url" type = "text" size = "25"
+                placeholder="www.domain.com" title="www.website.com"
+              maxlength = "30" required
+              >
+            </label>
+          </p>
+
+          <!-- submit and reset insert buttons for submitting -->
+          <!-- and clearing the form's contents				-->
+          <p>
+          <input type = "submit" value = "submit" class ="btn" >
+          <input type = "reset" value = "clear" class = "btn">
+          </p>
+          </fieldset>
+
+        </form>
+      </div>
+      <div id = "map-area">
+        <div class = "grid-item" id = "map">
+        <p>big map here</p>
+          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdmctXQ-lW_sN2i03a8EbxcgSdAgRixVE&callback=initMap"
+          async defer>
+         </script>
+        </div>
+    </div>
+    </div>
+
+   </body>
+
+</html>
