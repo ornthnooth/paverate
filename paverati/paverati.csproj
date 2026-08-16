@@ -12,8 +12,6 @@
 
     <ItemGroup>
       <Folder Include="API\Controllers\" />
-      <Folder Include="API\Infrastructure\" />
-      <Folder Include="Core\" />
       <Folder Include="Web\" />
     </ItemGroup>
 
