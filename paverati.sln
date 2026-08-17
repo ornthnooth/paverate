@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paverati", "paverati\paverati.csproj", "{1D7915C0-AFCC-43DE-9877-CA32B3B6573F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paverati.web", "paverati.web\paverati.web.csproj", "{58E9AFFC-7C03-42CC-B8E3-A04348492F6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paverati.Core", "paverati.Core\paverati.Core.csproj", "{F572E3A4-B5E5-40CE-AD68-24746A70E183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paverati.Infrastructure", "paverati.Infrastructure\paverati.Infrastructure.csproj", "{BCA0E5D3-4ACD-4DAD-9F74-3B03A788D41B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{1D7915C0-AFCC-43DE-9877-CA32B3B6573F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D7915C0-AFCC-43DE-9877-CA32B3B6573F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D7915C0-AFCC-43DE-9877-CA32B3B6573F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E9AFFC-7C03-42CC-B8E3-A04348492F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E9AFFC-7C03-42CC-B8E3-A04348492F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E9AFFC-7C03-42CC-B8E3-A04348492F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E9AFFC-7C03-42CC-B8E3-A04348492F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F572E3A4-B5E5-40CE-AD68-24746A70E183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F572E3A4-B5E5-40CE-AD68-24746A70E183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F572E3A4-B5E5-40CE-AD68-24746A70E183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F572E3A4-B5E5-40CE-AD68-24746A70E183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA0E5D3-4ACD-4DAD-9F74-3B03A788D41B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA0E5D3-4ACD-4DAD-9F74-3B03A788D41B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA0E5D3-4ACD-4DAD-9F74-3B03A788D41B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA0E5D3-4ACD-4DAD-9F74-3B03A788D41B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

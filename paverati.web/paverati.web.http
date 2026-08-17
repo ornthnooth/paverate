@@ -1,0 +1,6 @@
+@paverati.web_HostAddress = http://localhost:5010
+
+GET {{paverati.web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
